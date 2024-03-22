@@ -29,7 +29,7 @@ function python_result() {
     if ! (which python3 >/dev/null); then
         result=`cat $2 | python ./python/$1.py | tr -d '\r' | tr -d '\t'`
     else
-        result=`cat $2 | python3 ./python/$1.py | tr -d '\r' | tr -d '\t'`
+        result=`cat $2 | python ./python/$1.py | tr -d '\r' | tr -d '\t'`
     fi
     output=`cat $3 | tr -d '\r' | tr -d '\t'`
 

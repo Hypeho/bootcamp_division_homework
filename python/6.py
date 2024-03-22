@@ -5,6 +5,17 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    alpha = input()
+
+    a = ["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"]
+    b = ["a","e","i","o","u"]
+
+    if alpha in a:
+        print("X")
+    elif alpha in b:
+        print("O")
+    else:
+        print("error")
 
     return
 

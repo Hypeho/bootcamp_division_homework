@@ -5,7 +5,9 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    num = int(input())
+    print(int(str(num)[::-1]))
+    
     return
 
 
